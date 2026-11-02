@@ -22,6 +22,9 @@ Ye repository product development, UI design, coding roadmap, implementation tem
 2. [Research Methodology & Source Register](docs/02-research-methodology-and-source-register.md)  
    Research kaise verify karna hai, official source links, licensing limitations aur copyright-safe research rules.
 
+3. [Detailed Page & Feature Catalog](docs/03-detailed-page-and-feature-catalog.md)  
+   Microsoft Defender aur CrowdStrike Falcon ke detailed page names, sub-areas, features aur quick comparison.
+
 ## Research quality rules
 
 - Official product documentation ko first preference di jayegi.
