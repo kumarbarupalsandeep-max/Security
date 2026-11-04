@@ -25,6 +25,9 @@ Ye repository product development, UI design, coding roadmap, implementation tem
 3. [Detailed Page & Feature Catalog](docs/03-detailed-page-and-feature-catalog.md)  
    Microsoft Defender aur CrowdStrike Falcon ke detailed page names, sub-areas, features aur quick comparison.
 
+4. [Aasaan Hindi Guide — Pages & Features](docs/04-aasaan-hindi-pages-and-features-guide.md)  
+   Dono platforms ke main pages aur features ko beginner-friendly Hinglish mein samjhaya gaya hai.
+
 ## Research quality rules
 
 - Official product documentation ko first preference di jayegi.
