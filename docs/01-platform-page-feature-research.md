@@ -534,3 +534,46 @@ Har major module mein, jahan relevant ho:
 3. Har organization ko same modules ya permissions nahi milte.
 4. Is document mein page groups ko learning aur product planning ke liye organize kiya gaya hai.
 5. Final development se pehle official docs, tenant configuration aur current product UI se individual feature verify karna hoga.
+
+
+## Competitor reference research — Microsoft Defender and CrowdStrike Falcon
+
+### Official references
+- Microsoft Security: https://www.microsoft.com/en-us/security
+- Microsoft Defender XDR docs: https://learn.microsoft.com/en-us/defender-xdr/
+- Defender portal: https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-defender-portal
+- Incidents and alerts: https://learn.microsoft.com/en-us/defender-xdr/incidents-overview
+- CrowdStrike Falcon: https://www.crowdstrike.com/platform/
+- CrowdStrike developer docs: https://developer.crowdstrike.com/
+
+### Microsoft Defender se kya samajh aata hai?
+Defender portal security signals ko unified view mein laata hai. Related alerts ko ek incident ke andar group kiya ja sakta hai. Analyst incident details, involved devices/users, timeline, evidence aur investigation actions dekh sakta hai. Available features tenant licence aur configuration par depend karte hain.
+
+### CrowdStrike Falcon se kya samajh aata hai?
+Falcon platform endpoint protection, detection/response, threat intelligence aur security operations capabilities ko modules/platform ke roop mein provide karta hai. APIs aur integrations security signals ko external workflows ke saath connect karte hain. Exact modules aur capabilities subscription ke hisaab se vary kar sakte hain.
+
+### Pages / feature map
+1. Security operations dashboard
+2. Incidents queue
+3. Alerts queue
+4. Incident investigation timeline
+5. Endpoint/device inventory
+6. Threat intelligence and indicators
+7. Vulnerability / exposure management
+8. Advanced hunting / query workspace
+9. Automated investigation and response
+10. Action center and response history
+11. Reports and threat analytics
+12. Integrations, roles, policies and audit
+
+### Important workflow
+Security telemetry collect → alert generate → related alerts correlate into incident → severity and affected assets review → evidence/timeline investigate → authorized containment/remediation → verify → close with reason and post-incident notes.
+
+### Original product direction
+Defender ka unified incident story aur Falcon ka endpoint/threat operations focus se learning lein. Apne Security product mein alert, incident, asset, evidence, analyst decision aur response action linked hon. Har action ka impact, status aur audit history visible ho.
+
+### Safety, security and originality cautions
+- Alert aur incident alag concepts hain; multiple alerts ek incident ka hissa ho sakte hain.
+- Isolation, quarantine ya account disable jaise response actions elevated permission, confirmation, reason aur audit log ke saath hon.
+- Detection result ko evidence, timestamp, source aur confidence ke saath dikhayein.
+- Competitor branding, logos, exact UI layouts ya proprietary detection content copy na karein.
